@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aevum | The Concierge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        #menu-toggle:checked ~ #mobile-menu {
+            display: block !important;
+        }
+    </style>
+</head>
+<body class="bg-[#0D0D0D]">
+
+<input type="checkbox" id="menu-toggle" class="hidden">
+
+<nav class="flex items-center justify-between flex-wrap bg-[#0D0D0D]/90 backdrop-blur-md py-4 lg:px-12 sticky top-0 border-b border-[#4A3F33] z-50">
+    <div class="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-solid border-b-2 border-[#4A3F33] pb-5 lg:pb-0">
+        <div class="flex items-center flex-shrink-0 mr-16">
+            <span class="font-semibold text-xl tracking-tight text-[#B5A37E]">Aevum</span>
+        </div>
+        <div class="block lg:hidden">
+            <label for="menu-toggle" class="flex items-center px-3 py-2 border-2 rounded text-[#B5A37E] border-[#B5A37E] hover:text-[#F5F1E8] hover:border-[#F5F1E8] cursor-pointer">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </label>
+        </div>
+    </div>
+    
+    <div class="hidden lg:flex items-center space-x-8 pr-6">
+        <a href="collection.html" class="text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Collection</a>
+        <a href="#" class="text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Curated</a>
+        <a href="concierge.html" class="text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Concierge</a>
+        <a href="journal.html" class="text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Journal</a>
+        <span class="text-[#4A3F33]">|</span>
+        <a href="#" class="text-[#B5A37E] hover:text-[#F5F1E8] transition-colors duration-300 text-sm tracking-wide border border-[#B5A37E] hover:border-[#F5F1E8] px-4 py-2 rounded">Inquire</a>
+    </div>
+</nav>
+
+<div id="mobile-menu" class="hidden lg:hidden bg-[#0D0D0D] border-t border-[#4A3F33] py-4">
+    <a href="collection.html" class="block py-3 px-6 text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Collection</a>
+    <a href="#" class="block py-3 px-6 text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Curated</a>
+    <a href="concierge.html" class="block py-3 px-6 text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Concierge</a>
+    <a href="journal.html" class="block py-3 px-6 text-[#F5F1E8] hover:text-[#B5A37E] transition-colors duration-300 text-sm tracking-wide">Journal</a>
+    <a href="#" class="block py-3 px-6 text-[#B5A37E] hover:text-[#F5F1E8] transition-colors duration-300 text-sm tracking-wide mt-2 border-t border-[#4A3F33] pt-4">Inquire</a>
+</div>
+
+
+<section class="pt-24 pb-16 px-4 border-b border-[#4A3F33]">
+    <div class="max-w-7xl mx-auto text-center">
+        <p class="text-[#B5A37E] text-sm tracking-[0.3em] uppercase mb-3">Your Guides</p>
+        <h1 class="text-5xl md:text-6xl font-light text-[#F5F1E8] mb-6">The Concierge</h1>
+        <p class="text-[#F5F1E8]/60 max-w-2xl mx-auto">Meet our crème de la crème agents</p>
+    </div>
+</section>
+
+
+<section class="bg-[#0D0D0D] py-16 px-4 border-b border-[#4A3F33]">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-[#0D0D0D] rounded-xl shadow-lg overflow-hidden border border-[#4A3F33] hover:border-[#B5A37E] transition duration-500">
+                <img src="images/mary.jpg" alt="Mary Wambui" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-[#F5F1E8] mb-1">Mary Wambui</h3>
+                    <p class="text-[#B5A37E] mb-3">Principal Concierge</p>
+                    <p class="text-[#B5A37E]/70 mb-3">"I don't acquire cars. I approve heirlooms."</p>
+                    <div class="text-[#F5F1E8]/60 flex items-center mb-2">
+                        <i class="fa fa-phone mr-2 text-[#B5A37E]"></i>
+                        <span>+254 723 456 789</span>
+                    </div>
+                    <div class="text-[#F5F1E8]/60 flex items-center">
+                        <i class="fa fa-envelope mr-2 text-[#B5A37E]"></i>
+                        <span>mary.w@aevum.com</span>
+                    </div>
+                </div>
+            </div>
+            
+         
+            <div class="bg-[#0D0D0D] rounded-xl shadow-lg overflow-hidden border border-[#4A3F33] hover:border-[#B5A37E] transition duration-500">
+                <img src="images/Peter.jpg" alt="Peter Omondi" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-[#F5F1E8] mb-1">Peter Omondi</h3>
+                    <p class="text-[#B5A37E] mb-3">Acquisition Specialist</p>
+                    <p class="text-[#B5A37E]/70 mb-3">"If it exists, I'll find it. If it doesn't, I'll source it."</p>
+                    <div class="text-[#F5F1E8]/60 flex items-center mb-2">
+                        <i class="fa fa-phone mr-2 text-[#B5A37E]"></i>
+                        <span>+254 734 567 890</span>
+                    </div>
+                    <div class="text-[#F5F1E8]/60 flex items-center">
+                        <i class="fa fa-envelope mr-2 text-[#B5A37E]"></i>
+                        <span>peter.o@aevum.com</span>
+                    </div>
+                </div>
+            </div>
+            
+       
+            <div class="bg-[#0D0D0D] rounded-xl shadow-lg overflow-hidden border border-[#4A3F33] hover:border-[#B5A37E] transition duration-500">
+                <img src="images/njeri.jpg" alt="Sarah Njeri" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-[#F5F1E8] mb-1">Sarah Njeri</h3>
+                    <p class="text-[#B5A37E] mb-3">Heritage Director</p>
+                    <p class="text-[#B5A37E]/70 mb-3">"Every car tells a story. My job is to prove it's true."</p>
+                    <div class="text-[#F5F1E8]/60 flex items-center mb-2">
+                        <i class="fa fa-phone mr-2 text-[#B5A37E]"></i>
+                        <span>+254 745 678 901</span>
+                    </div>
+                    <div class="text-[#F5F1E8]/60 flex items-center">
+                        <i class="fa fa-envelope mr-2 text-[#B5A37E]"></i>
+                        <span>sarah.n@aevum.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="bg-[#0D0D0D] py-20 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-4xl font-light text-[#F5F1E8] mb-6">Begin Your Search</h2>
+        <p class="text-[#F5F1E8]/60 mb-8">
+            Whether you know exactly what you're looking for or simply wish to explore, 
+            our concierge team is ready to assist.
+        </p>
+        <a href="#" class="inline-block text-[#B5A37E] border border-[#B5A37E] px-8 py-3 hover:bg-[#B5A37E] hover:text-[#0D0D0D] transition-all duration-500 text-sm tracking-wider">
+            Schedule a Consultation
+        </a>
+    </div>
+</section>
+
+
+<footer class="bg-[#0D0D0D] border-t border-[#4A3F33] py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div>
+                <span class="text-2xl font-light text-[#B5A37E] tracking-tight">Aevum</span>
+                <p class="text-[#F5F1E8]/40 text-sm mt-4 leading-relaxed">Timeless machines for the discerning collector.</p>
+            </div>
+            <div>
+                <p class="text-[#F5F1E8] text-sm tracking-wide mb-4">Navigate</p>
+                <ul class="space-y-2">
+                    <li><a href="collection.html" class="text-[#F5F1E8]/60 hover:text-[#B5A37E] transition text-sm">Collection</a></li>
+                    <li><a href="#" class="text-[#F5F1E8]/60 hover:text-[#B5A37E] transition text-sm">Curated</a></li>
+                    <li><a href="concierge.html" class="text-[#F5F1E8]/60 hover:text-[#B5A37E] transition text-sm">Concierge</a></li>
+                    <li><a href="journal.html" class="text-[#F5F1E8]/60 hover:text-[#B5A37E] transition text-sm">Journal</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-[#F5F1E8] text-sm tracking-wide mb-4">Contact</p>
+                <ul class="space-y-2">
+                    <li class="text-[#F5F1E8]/60 text-sm">hello@aevum.com</li>
+                    <li class="text-[#F5F1E8]/60 text-sm">+254 700 000 000</li>
+                    <li class="text-[#F5F1E8]/60 text-sm">Nairobi, Kenya</li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-[#F5F1E8] text-sm tracking-wide mb-4">Inquire</p>
+                <a href="#" class="text-[#B5A37E] border border-[#B5A37E] px-6 py-2 inline-block hover:bg-[#B5A37E] hover:text-[#0D0D0D] transition text-sm">Book Consultation</a>
+            </div>
+        </div>
+        <div class="border-t border-[#4A3F33] mt-12 pt-8 text-center text-[#F5F1E8]/40 text-xs">
+            © 2024 Aevum. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
