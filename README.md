@@ -54,4 +54,8 @@ Aevum (Latin for "age" or "eternity") is a multi-page website for a high-end col
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Deployment
+- Live URL link:
+https://seanmugo.github.io/Aevum/
+
+---
